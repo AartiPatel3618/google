@@ -33,7 +33,7 @@ ul li {
   margin-right: 40px;
   font-family: Graphie;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 21px;
 
@@ -106,42 +106,681 @@ ul li i {
   margin: 61px 99px 0 101px;
   width: 100%;
   max-width: 60%;
+  height: 377px;
 }
 .first-covid {
   width: 195px;
   height: 195px;
   background: #ebcfb8;
   border-radius: 10px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.round-covid {
+.round-covid1 {
   height: 92px;
   width: 92px;
   border-radius: 50%;
   background: #f2dfcf;
-  margin-left: 51.5px;
-  position: absolute;
-  top: 30px;
-  bottom: 73px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.image-covid {
-  position: absolute;
-  top: 16px;
-  left: 18px;
-  position: relative;
+.round-covid2 {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+
+  background: #f3efe8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.text-covid {
-  position: absolute;
-  left: 25px;
-  top: 146px;
-  right: 25px;
-  bottom: 30px;
+.round-covid3 {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+  background: #eff6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.round-covid4 {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3efe8;
+}
+.round-covid5 {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3efe8;
+}
+.round-covid6 {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #eff6fa;
+}
+
+.text-covid1 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 24px 7px 0px 7px;
+}
+
+.text-covid2 {
+}
+.text-covid2 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 24px 3px 0px 3px;
+}
+
+.text-covid3 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 24px 0px 0 0px;
+}
+
+.text-covid4 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 24px 4px 0 4px;
+}
+
+.text-covid5 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 24px 6px 0 6px;
+}
+
+.text-covid6 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 24px 3px 0 3px;
 }
 .grid-container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: auto auto auto;
+}
+.first-covid:nth-child(2) {
+  background: #ede8dd;
+}
+.first-covid:nth-child(3) {
+  background: #e2eef6;
+}
+.first-covid:nth-child(5) {
+  background: #ede8dd;
+}
+.first-covid:nth-child(6) {
+  background: #e2eef6;
+}
+.section-8 {
+  padding: 133px 0 100px 98px;
+}
+
+.women-journey {
+  display: flex;
+}
+.women {
+  width: 100%;
+  max-width: 590px;
+}
+
+.journey {
+  /* width: 100%; */
+  /* max-width: 589px; */
+}
+.journey-text {
+  margin: 26px 0 0 66px;
+}
+.journey h2 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 27px 0 0 0;
+}
+.journey p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 24px 0 0 0;
+}
+.chronic-depression {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 532px;
+}
+.chronic {
+  margin: 0 0 0 0;
+}
+.chronic1 {
+  margin: 0 0 0 66px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.sto-img {
+  margin: 4px 0 0 0;
+}
+
+.chronic-text {
+  margin: 0 0 0 17px;
+}
+.chronic-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  width: 100%;
+  max-width: 185px;
+  margin: 24px 0 0 0;
+}
+.chronic-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  mix-blend-mode: normal;
+  color: rgba(51, 51, 51, 0.7);
+  width: 100%;
+  max-width: 185px;
+  margin: 4px 0 0 0;
+}
+.chronic2 {
+  margin: 0px 0 0 70px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.most-img {
+  margin: 8px 0 0 0;
+}
+
+.most-text {
+  margin: 0 0 0 17px;
+}
+
+.most-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  width: 100%;
+  max-width: 185px;
+  margin: 32px 0 0 0px;
+}
+.most-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  mix-blend-mode: normal;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+  width: 100%;
+  max-width: 185px;
+}
+.chronic3 {
+  margin: 0px 0 0 67px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.star-img {
+  margin: 32px 0 0 0;
+}
+
+.star-text {
+  margin: 0 0 0 15px;
+}
+
+.star-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  width: 100%;
+  max-width: 185px;
+  margin: 32px 0 0 0;
+}
+.star-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  mix-blend-mode: normal;
+  color: rgba(51, 51, 51, 0.7);
+  width: 100%;
+  max-width: 185px;
+  margin: 4px 0 0 0;
+}
+.chronic4 {
+  margin: 0 0 0 66px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.covid-img {
+  margin: 26px 0 0 0px;
+}
+.covid-text {
+  margin: 0 0 0 18px;
+}
+.covid-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+
+  letter-spacing: 0.7px;
+
+  color: #333333;
+  margin: 32px 0 0 0;
+}
+.covid-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.7px;
+
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+}
+.depression {
+  margin: 0 0 0 63px;
+}
+.depression1 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+.sto-d-img {
+  margin: -89px 0 0 0;
+}
+.depression-text {
+  margin: 0 0 0 18px;
+}
+.depression1 h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: -65px 0 0 0;
+}
+.depression1 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+}
+
+.depression2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.most-d-img {
+  margin: 16px 0 0 0;
+}
+.most-d-text {
+  margin: 0 0 0 18px;
+}
+.depression2 h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 23px 0 0 0;
+}
+.depression2 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+}
+.depression3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.moon-d-img {
+  margin: 45px 0 0 0;
+}
+.moon-d-text {
+  margin: 0 0 0 15px;
+}
+.depression3 h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+
+  letter-spacing: 0.7px;
+
+  color: #333333;
+  margin: 32px 0 0 0;
+}
+.depression3 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.7px;
+  margin: 4px 0 0 0;
+  color: rgba(51, 51, 51, 0.7);
+}
+.woman-fpo {
+  position: relative;
+}
+.fpo {
+  position: absolute;
+  left: 41px;
+  top: 37px;
+}
+.section-9 {
+  padding: 100px;
+  background: #edf7fd;
+}
+.mentalss-text h2 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 24px 0 0 0;
+}
+.mentalss-text p {
+  margin: 24px 0 0 0;
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  letter-spacing: 0.7px;
+
+  color: #333333;
+}
+.main-mental {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+.mentalhealth {
+  width: 100%;
+  max-width: 556px;
+}
+.mental1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.mental-img {
+  margin: 11px 0 0 0;
+}
+.mental-text {
+  margin: 0 0 0 17px;
+}
+.mental-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 24px 0 0 0;
+}
+.mental-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+  width: 100%;
+  max-width: 186px;
+}
+.mental2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.mental2-img {
+  margin: 14px 0 0 0;
+}
+.mental2-text {
+  margin: 0 0 0 17px;
+}
+.mental2-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 32px 0 0 0;
+}
+.mental2-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+  width: 100%;
+  max-width: 186px;
+}
+
+.mental3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mental3-img {
+  margin: 29px 0 0 0;
+}
+.mental3-text {
+  margin: 0 0 0 17px;
+}
+.mental3-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 24px 0 0 0;
+}
+.mental3-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+  width: 100%;
+  max-width: 186px;
+}
+.mental4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mental4-img {
+  margin: 39px 0 0 0;
+}
+.mental4-text {
+  margin: 0 0 0 17px;
+}
+.mental4-text h4 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 50px 0 0 0;
+}
+.mental4-text p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 4px 0 0 0;
+  width: 100%;
+  max-width: 186px;
+}
+.mentalbutton {
+  height: 45px;
+  width: 276px;
+  background: #24547a;
+  border-radius: 10px;
+  padding: 14px 0px;
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  margin: 24px 0 0 0;
+}
+.mentalbutton i {
+  width: 21px;
+  height: 9px;
+  color: #ffffff;
+  margin: 0 0 0 12px;
+}
+.menuhealth {
+  display: flex;
+  width: 100%;
+}
+.whiteglove {
+  margin: 0 0 0 0;
+}
+
+.mobile {
+  position: relative;
+  margin: 0 0 0 66px;
+  width: 100%;
+  max-width: 590px;
+  height: 591px;
+}
+.mobilefpo {
+  position: absolute;
+  top: 22px;
+  left: 45px;
+  margin: 0;
 }
 .section-1 {
   padding: 100px;
