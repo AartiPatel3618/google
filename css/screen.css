@@ -1,6 +1,7 @@
 .main-wrap {
   padding: 0 20px;
   /* background-color: red;    */
+  overflow: hidden;
 }
 * {
   font-family: "Inter", sans-serif;
@@ -915,6 +916,7 @@ ul li i {
 .main-clinic:nth-child(1) {
   background: #f4f2e9;
 }
+
 .radius-img {
   background: #efeae1;
   width: 92px;
