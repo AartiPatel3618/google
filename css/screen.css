@@ -754,12 +754,17 @@ ul li i {
   letter-spacing: 0.7px;
   color: #ffffff;
   margin: 24px 0 0 0;
+  border: none;
 }
 .mentalbutton i {
   width: 21px;
   height: 9px;
   color: #ffffff;
   margin: 0 0 0 12px;
+}
+.mentalbutton:hover {
+  background-color: #386b96;
+  cursor: pointer;
 }
 .menuhealth {
   display: flex;
@@ -781,6 +786,115 @@ ul li i {
   top: 22px;
   left: 45px;
   margin: 0;
+}
+.section-10 {
+  padding: 100px 120px 113px;
+  margin: 0;
+}
+.travels {
+  position: relative;
+  margin: 0;
+}
+.traveller-fpo {
+  position: absolute;
+  top: 23px;
+  left: 35px;
+  margin: 0;
+}
+.traveller-sameday {
+  width: 100%;
+  display: flex;
+}
+.sameday {
+  width: 100%;
+  max-width: 544px;
+  margin: 0px 0 0 75px;
+}
+.sameday h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 52px;
+
+  letter-spacing: 0.7px;
+
+  color: #333333;
+  margin: 53px 0 0 0;
+}
+.sameday p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 24px 0 0 0;
+}
+
+.paragraph1 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+.paragraph1 p {
+  margin: 0 0 0 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 16px 0 0 20px;
+}
+
+.paragraph1 i {
+  font-size: 25px;
+  width: 20px !important;
+  height: 20px !important ;
+  margin: 20px 0 0 0;
+}
+.paragraph2 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+.paragraph2 p {
+  margin: 0 0 0 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 16px 0 0 20px;
+}
+
+.paragraph2 i {
+  font-size: 25px;
+  width: 20px !important;
+  height: 20px !important ;
+  margin: 20px 0 0 0;
+}
+
+.section-11 {
+  padding: 100px;
+  background: #fcfaf2;
+}
+.word-title {
+  text-align: center;
+}
+.word-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  color: #333333;
+  margin: 0 0 0 0;
 }
 .section-1 {
   padding: 100px;
