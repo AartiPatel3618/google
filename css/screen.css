@@ -1151,17 +1151,46 @@ ul li i {
   background: #e5e5e5;
   display: flex;
 }
-.left {
-  float: left;
-  max-width: 588px;
+.sameday {
+  display: flex;
   width: 100%;
-  margin: 24px;
+}
+.left {
+  max-width: 600px;
+  width: 100%;
+  margin: 24px 0 0 0;
 }
 .right {
-  float: right;
+  margin: 160px 0 0 0px;
+}
+
+.images {
+  position: relative;
+}
+.box1 {
+  position: relative;
+  left: 40px;
+}
+.box2 {
+  position: absolute;
+  left: 211px;
+  z-index: 2;
+  top: -30px;
+}
+.box3 {
+  position: relative;
+  left: 100px;
+}
+.boxes {
+  position: relative;
+}
+.fpo {
+  position: absolute;
+  top: 64px;
+  left: 147px;
+  z-index: 2;
 }
 .left h1 {
-  font-family: Graphie;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -1170,9 +1199,9 @@ ul li i {
   letter-spacing: -1px;
 
   color: #3b3d40;
+  margin: 24px 0 0 0;
 }
 .left p {
-  font-family: Graphie;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1182,6 +1211,7 @@ ul li i {
   letter-spacing: 0.2px;
 
   color: #666666;
+  margin: 24px 0 0 0;
 }
 .left-left {
   max-width: 242px;
@@ -1189,7 +1219,10 @@ ul li i {
   float: left;
 }
 .left-left i {
-  margin-bottom: 24px;
+  margin: 24px 0 0 0;
+}
+.left-left span {
+  margin: 0 0 0 20px;
 }
 .left-right {
   float: right;
@@ -1197,16 +1230,18 @@ ul li i {
   width: 100%;
 }
 .left-right i {
-  margin-bottom: 24px;
+  margin: 24px 0 0 0;
 }
-.left-right i:last-child {
-  margin-bottom: -24px;
+.left-right span {
+  margin: 0 0 0 20px;
 }
+/* .left-right i:last-child {
+  /* margin-bottom: -24px; */
+/* } */
 .left-left i:last-child {
-  margin-bottom: -24px;
+  /* margin-bottom: -24px; */
 }
 i {
-  font-family: Graphie;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1217,7 +1252,6 @@ i {
   color: #333333;
 }
 .australia img {
-  /* background-color: navy; */
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -1237,7 +1271,6 @@ i {
   position: absolute;
   top: 55px;
   left: 410px;
-  font-family: Dancing Script;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
