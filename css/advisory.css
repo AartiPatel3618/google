@@ -1,0 +1,111 @@
+.main {
+  padding: 20px;
+}
+
+.section-5 {
+  max-width: 1400px;
+  width: 100%;
+}
+.behind {
+  position: relative;
+}
+.doctor {
+  position: absolute;
+  top: 185px;
+  left: 325px;
+  right: 324px;
+  bottom: 233px;
+  background: #ffffff;
+  width: 100%;
+  max-width: 791px;
+  border-radius: 10px;
+  height: 809px;
+}
+
+.doc-photo {
+  float: left;
+  margin: 55px 0 0 54px;
+}
+.cancel {
+  float: right;
+  margin: 55px 32px 0 0;
+}
+.doc-text {
+  width: 100%;
+  display: inline-block;
+}
+.doc-text p {
+}
+.doc-text h2 {
+}
+.h2 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+
+  letter-spacing: 0.7px;
+  color: #333333;
+}
+.drname {
+  margin: 40px 0 0 40px;
+}
+.surgeon {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.8);
+  margin: 8px 0 0 40px;
+}
+.name-text {
+  margin: 24px 40px 0 40px;
+}
+.name-text1 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.7px;
+
+  color: #333333;
+}
+.name-text2 {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.7px;
+
+  color: #333333;
+  margin: 22px 0 0 0;
+}
+.doc-btn {
+  height: 45px;
+  width: 100%;
+  max-width: 276px;
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  border: none;
+  color: #ffffff;
+  background: #24547a;
+  border-radius: 10px;
+  padding: 14px, 31px, 14px, 31px;
+  margin: 22px 0 42px 40px;
+}
+.doc-btn i {
+  margin-left: 12px;
+  color: white;
+  width: 31px;
+  height: 10px;
+}
+.doc-btn:hover {
+  background-color: #28455e;
+}
