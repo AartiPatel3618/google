@@ -153,13 +153,13 @@ li:hover .dropdown5 {
   line-height: 19px;
   text-transform: uppercase;
   color: #979797;
-  margin: 24px 0 0 0;
+  margin: 20px 0 0 0;
 }
-.display h6 {
+.display .datetext {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 40px;
   color: #333333;
   margin: 16px 0 0 0;
@@ -168,10 +168,120 @@ li:hover .dropdown5 {
   font-style: normal;
   font-family: "Inter", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.7px;
   line-height: 22px;
   color: #333333;
   border-bottom: 1px solid black;
   margin: 24px 0 0 0;
+  width: 102px;
+}
+.main-section3 {
+  display: flex;
+  width: 100%;
+  padding: 0 136px 0 104px;
+}
+.main-section4 {
+  display: flex;
+  width: 100%;
+  padding: 0 136px 0 104px;
+}
+
+.main-section5 {
+  display: flex;
+  width: 100%;
+  padding: 0 136px 0 104px;
+}
+.main-section6 {
+  display: flex;
+  width: 100%;
+  padding: 0 136px 0 104px;
+  margin: 0 0 63px 0;
+}
+.section-4 {
+  padding: 75px 100px;
+  max-width: 1400px;
+  width: 100%;
+}
+.allfooter {
+  margin: 0 0 81px 0;
+  display: flex;
+}
+.footer-left {
+  max-width: 338px;
+  width: 100%;
+}
+.footer-left h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.footer-left span {
+  font-weight: 300;
+}
+.icons {
+  margin: 40px 0 40px 0;
+}
+.icons i {
+  padding: 0 29.6px 0 0;
+}
+.mail p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0a142f;
+  margin: 0 0 20px 0;
+}
+.mail {
+  border-bottom: 1px solid #ccc;
+}
+.email-input {
+  border: none;
+  outline: none;
+}
+.footer-right {
+  width: 100%;
+  max-width: 881px;
+  margin: 0 0 0 108px;
+}
+.row {
+  display: flex;
+}
+.col-1 {
+  margin: 0 90px 14px 0;
+}
+.col-1 h4 {
+  font-style: normal;
+  font-family: Graphie;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin: 0 0 16px 0;
+}
+.col-1 p {
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  color: #333333;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  width: 100%;
+  max-width: 180px;
+  margin: 16px 0 0 0;
+}
+.lastpara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 22px;
+  width: 100%;
+  letter-spacing: 0.2px;
+  color: rgba(51, 51, 51, 0.5);
+  width: 1169px;
+  border-radius: nullpx;
 }
