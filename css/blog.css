@@ -7,18 +7,17 @@
 .main-wrap {
 }
 .main-container {
-  width: 100%;
-  max-width: 1440px;
+  /* width: 100%;
+  max-width: 1440px; */
 }
 .section-1 {
 }
 .logo-nav {
-  width: 100%;
-  max-width: 1440px;
+  /* width: 100%;
+  max-width: 1440px; */
   height: 55px;
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-  margin: 0 0 0 50px;
 }
 .logo {
   float: left;
@@ -49,7 +48,7 @@ ul li {
   cursor: pointer;
 }
 ul li i {
-  margin-left: 10px;
+  margin: 0 0 0 10px;
 }
 li {
   position: relative;
