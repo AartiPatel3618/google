@@ -281,6 +281,10 @@ li:hover .dropdown5 {
   max-width: 180px;
   margin: 16px 0 0 0;
 }
+hr {
+  color: #333333;
+  margin: 0 20px 0 20px;
+}
 .lastpara {
   font-style: normal;
   font-weight: normal;
